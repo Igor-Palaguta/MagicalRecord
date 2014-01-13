@@ -13,11 +13,11 @@
 // #define STORE_USE_CACHE
 
 #ifndef MR_ENABLE_ACTIVE_RECORD_LOGGING
-    #ifdef DEBUG
-        #define MR_ENABLE_ACTIVE_RECORD_LOGGING 1
-    #else
+    //#ifdef DEBUG
+    //    #define MR_ENABLE_ACTIVE_RECORD_LOGGING 1
+    //#else
         #define MR_ENABLE_ACTIVE_RECORD_LOGGING 0
-    #endif
+    //#endif
 #endif
 
 #if MR_ENABLE_ACTIVE_RECORD_LOGGING != 0
